@@ -1,6 +1,9 @@
 #include<iostream>
 
 using namespace std;
+template <typename hey>
+void mySwap(hey &,hey &);
+
 
 int main(){
 	int x, y;
@@ -29,4 +32,9 @@ int main(){
 
 	return 0;
 }
-
+template <typename wow>
+void mySwap(wow &f ,wow &s){
+	wow xd = f;
+	f = s;
+	s = xd;
+}
